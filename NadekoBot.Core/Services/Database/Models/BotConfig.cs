@@ -11,7 +11,7 @@ namespace NadekoBot.Core.Services.Database.Models
         public bool ForwardMessages { get; set; } = true;
         public bool ForwardToAllOwners { get; set; } = true;
 
-        public float CurrencyGenerationChance { get; set; } = 0.02f;
+        public float CurrencyGenerationChance { get; set; } = 0.3f;
         public int CurrencyGenerationCooldown { get; set; } = 10;
 
         public List<PlayingStatus> RotatingStatusMessages { get; set; } = new List<PlayingStatus>();
@@ -20,9 +20,9 @@ namespace NadekoBot.Core.Services.Database.Models
         public string RemindMessageFormat { get; set; } = "❗⏰**I've been told to remind you to '%message%' now by %user%.**⏰❗";
 
         //currency
-        public string CurrencySign { get; set; } = "🌸";
-        public string CurrencyName { get; set; } = "Nadeko Flower";
-        public string CurrencyPluralName { get; set; } = "Nadeko Flowers";
+        public string CurrencySign { get; set; } = "🌀";
+        public string CurrencyName { get; set; } = "Swirlie";
+        public string CurrencyPluralName { get; set; } = "Swirlies";
 
         public int TriviaCurrencyReward { get; set; } = 0;
         /// <summary> UNUSED </summary>
